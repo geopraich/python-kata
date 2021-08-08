@@ -1,0 +1,6 @@
+Given an integer n, perform the following conditional actions:
+
+If n is odd, return Weird
+If n is even and in the inclusive range of 2 to 5, return Not Weird
+If n is even and in the inclusive range of 6 to 20, return Weird
+If n is even and greater than 20 , return Not Weird
