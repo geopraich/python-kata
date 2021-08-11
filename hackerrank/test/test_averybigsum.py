@@ -1,5 +1,5 @@
 import unittest
-from averybigsum import a_very_big_sum
+from hackerrank.averybigsum import a_very_big_sum
 
 
 class AVeryBigSumTestCase(unittest.TestCase):

@@ -1,5 +1,5 @@
 import unittest
-from comparethetriplets import compare_triplets
+from hackerrank.comparethetriplets import compare_triplets
 
 
 class CompareTheTripletsTestCase1(unittest.TestCase):

@@ -1,5 +1,5 @@
 import pytest
-from fizzbuzz import fizz_buzz
+from hackerrank.fizzbuzz import fizz_buzz
 
 
 def check_fizz_buzz(value, actual):

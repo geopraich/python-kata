@@ -1,5 +1,5 @@
 import unittest
-from spygame import spy_game
+from hackerrank.spygame import spy_game
 
 
 class SpyGameTestCase1(unittest.TestCase):
