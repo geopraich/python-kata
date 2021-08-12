@@ -11,4 +11,3 @@ def hackerrank_string(s):
         return 'YES'
 
     return 'NO'
-

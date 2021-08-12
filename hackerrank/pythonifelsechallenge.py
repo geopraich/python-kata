@@ -8,4 +8,3 @@ def find_odd(number):
             return "Weird"
         elif number > 20:
             return "Not Weird"
-
