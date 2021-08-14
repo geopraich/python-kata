@@ -4,7 +4,7 @@ from hackerrank.fizzbuzz import fizz_buzz
 
 def check_fizz_buzz(value, actual):
     result = fizz_buzz(value)
-    assert result == actual
+    assert result == actual, f"expected: {actual}, got: {result}"
 
 
 def test_returns_1_when_1_passed_in():
@@ -34,3 +34,6 @@ def test_return_buzz_when_10_passed_in():
 def test_return_fizzbuzz_when_15_passed_in():
     check_fizz_buzz(15, "FizzBuzz")
 
+
+if __name__ == '__main__':
+    pytest.main()
