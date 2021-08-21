@@ -1,4 +1,5 @@
-import pytest, string
+import pytest
+import string
 from hackerrank.wrap import wrap
 
 
